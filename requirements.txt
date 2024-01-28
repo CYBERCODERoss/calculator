@@ -1,0 +1,6 @@
+# requirements.txt
+
+# ttk (themed Tkinter) for enhanced widgets
+ttkthemes==3.2.2
+
+# Math module (usually included in standard library)
