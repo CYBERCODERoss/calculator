@@ -16,21 +16,25 @@ This Python project demonstrates performing advanced and scientific calculations
 - ttkthemes (for themed Tkinter widgets)
 
 ## Installation
-
-Ensure you have Python installed. You can install the required dependencies using the following command:
-
+clone the repo. using
 ```bash
-pip install -r requirements.txt
+git clone https://www.github.com/CYBERCODERoss/calculator.git
+```
+Now make sure that you are inside the directory
+```bash
+cd calculator
 ```
 
-If you encounter any issues with Tkinter, make sure to install the appropriate system-specific package (e.g., python3-tk).
-using
-```bash
-sudo apt install python3-tk
-```
 ## Usage
 # without docker:
 ```bash
 $ pip install -r requirements.txt
 $ python3 main.py
+```
+while installing the requirements -
+
+If you encounter any issues with Tkinter, make sure to install the appropriate system-specific package (e.g., python3-tk).
+using
+```bash
+sudo apt install python3-tk
 ```
