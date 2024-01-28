@@ -29,3 +29,8 @@ using
 sudo apt install python3-tk
 ```
 ## Usage
+# without docker:
+```bash
+$ pip install -r requirements.txt
+$ python3 main.py
+```
