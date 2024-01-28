@@ -18,7 +18,7 @@ This Python project demonstrates performing advanced and scientific calculations
 ## Installation
 clone the repo. using
 ```bash
-git clone https://www.github.com/CYBERCODERoss/calculator.git
+git clone https://github.com/CYBERCODERoss/calculator.git
 ```
 Now make sure that you are inside the directory
 ```bash
