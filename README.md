@@ -21,6 +21,11 @@ Ensure you have Python installed. You can install the required dependencies usin
 
 ```bash
 pip install -r requirements.txt
+```
 
-
-- If you encounter any issues with Tkinter, make sure to install the appropriate system-specific package (e.g., python3-tk).
+If you encounter any issues with Tkinter, make sure to install the appropriate system-specific package (e.g., python3-tk).
+using
+```bash
+sudo apt install python3-tk
+```
+## Usage
