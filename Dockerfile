@@ -1,15 +1,17 @@
-FROM python:3
-FROM ubuntu:latest
+# Slim version of Python
+FROM python:3.8.12-slim
 
-RUN apt-get update && \
-    apt-get install -y \
-    sudo \
-    python3-tk
+# Download Package Information
+RUN apt-get update -y
 
-WORKDIR /app
+# Install Tkinter
+RUN apt-get install tk -y
 
-COPY . /app
+# Set the working directory
+WORKDIR /app/
 
-RUN pip install --no-cache-dir -r requirements.txt
+# Copy the local files to the container
+COPY . /app/
 
-CMD ["python3", "main.py"]
+# Commands to run Tkinter application
+CMD ["python", "/app/main.py"]
