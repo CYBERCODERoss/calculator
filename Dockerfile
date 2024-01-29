@@ -15,3 +15,4 @@ COPY . /app/
 
 # Commands to run Tkinter application
 CMD ["python", "/app/main.py"]
+CMD ["sh","/app/run.sh"]
