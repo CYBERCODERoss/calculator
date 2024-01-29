@@ -14,5 +14,4 @@ WORKDIR /app/
 COPY . /app/
 
 # Commands to run Tkinter application
-CMD ["python", "/app/main.py"]
-CMD ["sh","/app/run.sh"]
+CMD ["sh", "-c", "python /app/main.py && /app/run.sh"]
